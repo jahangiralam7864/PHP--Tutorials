@@ -24,8 +24,15 @@
 
         $numb1 = 20;
         $summation = $numb1 + 30 + 50 -20;
-        echo "Total Amount = ". $summation;
+        echo "Total Amount = ". $summation . "<br>";
 
+        $number1 = 10;
+        $number2 = 20;
+    echo $number1 + $number2 . "<br>";
+    // Result 30
+    
+    $x = 20;
+    echo "Increment = " . ++$x;
 
     ?>
 
