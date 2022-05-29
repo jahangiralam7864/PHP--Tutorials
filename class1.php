@@ -22,6 +22,11 @@
         echo "<strong>sub<strong> = " . $sub . "<br>";
         // print total = $sum + $sub;
 
+        $numb1 = 20;
+        $summation = $numb1 + 30 + 50 -20;
+        echo "Total Amount = ". $summation;
+
+
     ?>
 
 
