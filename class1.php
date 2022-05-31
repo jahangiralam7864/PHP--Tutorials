@@ -33,7 +33,7 @@
     
     $x = 20;
     echo "Increment = " . ++$x;
-
+  
     ?>
 
 
