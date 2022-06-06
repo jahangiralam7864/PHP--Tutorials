@@ -27,7 +27,7 @@
         // kono content k biporit pas theke print korty amra strrev use korbo
         $names = "My name is jahangir alam";
         echo strrev($names);
-// result : mala rignahaj si eman yM
+        // result : mala rignahaj si eman yM
     ?>
 </body>
 </html>
