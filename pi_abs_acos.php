@@ -11,11 +11,34 @@
     // Min / Max ar kisu kaj nice dewa holo
     echo "<br>";
     echo min(11,4,23);
-
+    // result: 4
     echo "<br>";
+
     $numbers = 20;
     $num = 10;
     $min = 5;
-    echo min(10,20,5);
+    echo max(10,20,5);
+    // result: 20
+
+    echo "<br>";
+    // akhon amra square er madhome dekhbo
+    $square = 100;
+    echo sqrt($square);
+    //result : 10
+
+    echo "<br>";
+    echo pow(5, 2);
+    // 5 এর দি পাওয়ার ২৫
+    echo "<br>";
+    echo pow(5, 3);
+    // result: 125
+    echo "<br>";
+    
+    // floor check
+    echo floor(3.4);
+    echo "<br>";
+    
+    // ceil check
+    echo ceil(9.11);
 
 ?>
