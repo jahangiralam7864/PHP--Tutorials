@@ -40,5 +40,20 @@
     
     // ceil check
     echo ceil(9.11);
+    echo "<br>";
 
+    echo round(3.4);
+    // result: 3
+    echo "<br>";
+    echo round(3.5);
+    // result: 4;
+    echo "<br>";
+
+    echo rand();
+    // result: 2324557
+    echo "<br>";
+    echo rand(10,15);
+    // result:13
+
+ 
 ?>
