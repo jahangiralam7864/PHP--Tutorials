@@ -18,8 +18,17 @@
         echo " You are right now";
     }
 
-    
+    echo "<br>";
 
+    $strpos = "jahangi  alam joy";
+    var_dump(strpos($strpos, "alam"));
+    echo "<br>";
+    // result : int (9)
+    
+    $stripos = "My name is jahangir alam";
+    var_dump(strpos($stripos, "Jahangir"));
+    echo "<br>";
+    // result : bool(false);
 
 
 ?>
