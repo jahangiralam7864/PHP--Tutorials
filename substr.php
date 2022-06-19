@@ -30,5 +30,8 @@
     echo "<br>";
     // result : bool(false);
 
+    printf("Welcome %s. And you are good..",$name);
+    // result: Welcome amar sonar bangla. And you are good..
+    echo "<br>";
 
 ?>
