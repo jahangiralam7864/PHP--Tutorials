@@ -34,4 +34,9 @@
     // result: Welcome amar sonar bangla. And you are good..
     echo "<br>";
 
+
+    $country ="I love my country in my bangladesh";
+    $test = sprintf("Welcome %s. And you good..", $country);
+    echo $test;
+
 ?>
