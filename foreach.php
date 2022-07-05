@@ -13,5 +13,11 @@ $names = [
     foreach ($names as $parson) {
         echo "<li><br>" . $parson . "</br></li>";
     }
+
+
+    for ($i=1; $i < 100; $i+= 2) { 
+        echo $i. "<br>";
+    }
+
 ?>
 </ol>
