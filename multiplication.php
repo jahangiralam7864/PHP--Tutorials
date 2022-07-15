@@ -14,7 +14,7 @@ echo "<br>";
 
 $Number = 5;
 
-for ($x=1; $x < 10; $x++) { 
+for ( $x=1; $x < 10; $x++ ) { 
     $multi = $Number * $x;
-    echo $Number . "X" . $x . "=" . $multi . "<br>";
-}
+    echo $Number . " X " . $x . " = " . $multi . "<br>";
+} 
