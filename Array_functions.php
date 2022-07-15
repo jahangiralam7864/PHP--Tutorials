@@ -13,6 +13,10 @@
 
     for ($i=0; $i < count($names); $i++) { 
         echo $names[$i] . "<br>";
-
+        // result : jahangir alam  
+        //          monirul islam
+        //          jony
+        //          rofiq
+        //          rafi uddin
     }
 ?>
