@@ -19,4 +19,9 @@
         //          rofiq
         //          rafi uddin
     }
+
+    $names_print = implode(", ", $names);
+    echo $names_print;
+    echo "<br>";
+
 ?>
